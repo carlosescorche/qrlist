@@ -1,0 +1,10 @@
+@import "../../variables.scss";
+
+.container {
+  display: inline-block;
+
+  padding: 1em 1em 0.5em;
+
+  background: $box-color;
+  border-radius: 0.5em;
+}
