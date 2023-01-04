@@ -1,0 +1,41 @@
+@import "./variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,600&display=swap");
+
+html {
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $text-color;
+  background-color: $bg-color;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+a {
+  color: $text-color;
+}
+
+.loading-page {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-page {
+  text-align: center;
+  padding: 3em;
+
+  > .alert {
+    margin: 2em auto 2.5em;
+    max-width: 350px;
+  }
+}
