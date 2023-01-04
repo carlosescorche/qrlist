@@ -1,0 +1,27 @@
+@import "../../variables.scss";
+
+.alert {
+  &__container {
+    position: relative;
+    padding: 1em 2em;
+
+    background: $box-color;
+    color: $text-color;
+    border-color: $border-color;
+    border-radius: 0.3em;
+    border-width: 1px;
+    border-style: solid;
+  }
+
+  &__info {
+    background: #cff4fc;
+    color: #055160;
+    border-color: #b6effb;
+  }
+
+  &__danger {
+    background: #f8d7da;
+    color: #842029;
+    border-color: #f5c2c7;
+  }
+}
